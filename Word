@@ -1,0 +1,19 @@
+public class Word{
+  private String [] words = new String[]{};
+  
+  public Word(){
+  
+  }
+  public String getWord( ){
+  return words[i];
+  }
+  public String getNumberLetter(  ) { 
+  
+  }
+  public String toString(){
+  
+  }
+  
+  
+  
+}
