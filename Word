@@ -1,11 +1,14 @@
 public class Word{
-  private String [] words = new String[]{};
+  private String [] words = new String[]{jazz, mazy, hazy, coop, wisp, odor, glee, rosy, chug, hart, 
+                                         };
   
   public Word(){
   
   }
-  public String getWord( ){
-  return words[i];
+  public String getWord(){
+    for(int i = 0; i < words.length; i++){
+      return words[i];
+    }
   }
   public String getNumberLetter(  ) { 
   
