@@ -1,13 +1,55 @@
 public class Word{
-  private String [] words = new String[]{jazz, mazy, hazy, coop, wisp, odor, glee, rosy, chug, hart, 
+  private String [] words = new String[]{"dumb", "mazy", "hazy", "sore", "rich", "odor", "glee", "rosy", "deep", "warm", //10 4 letter words [0]-[9]
+                                         
+                                         "roomy", "comfy", "tabby", "tangy", "abaft", "zesty" , "trite", "ruddy", "naive", "witty" //10 5 letter words
+                                         "utter", "rough", "brash", "silly", "slimy", "rabid", "crabby", "nippy", "handy",
+                                         
+                                         "flashy", "faulty", "glossy", "lovely", "filthy", "hollow", "sudden", "lavish", "exotic"  //9 6 letter
+                                         "unique", "spiffy", "measly", "nimble", "sordid","vulgar", "narrow",  
+                                         
+                                          "ancient", "panicky", "jobless", "thirsty", "supreme", "billowy", "bashful", 
+                                          "prickly", "envious", "hapless", "dynamic", "verdant", "wistful", "rampant", 
+                                        
+                                         "distinct", "flippant", "imminent", "holistic", "relieved", 
+                                         
+                                         "whimsical", "ludicrous", "disgusted", 
+                                         
+                                         "omniscient"
                                          };
-  
+  private String [] synonym = new String[]{"inarticulate", "complicated", "blurry", "aching", "affluent", 
+                                           "aroma", "delight", "aflush", "buried", "balmy",   //all four letter word synonyms
+                                           
+                                           "spacious", "snug", "babbler", "flavorful", "behind",
+                                           "energetic", "common", "blooming", "ignorant", "amusing",
+                                           "pure", "choppy", "cheeky", "childish", "viscious", 
+                                           "crazed", "bad-tempered", "biting", "accessible",
+                                           
+                                           "garish", "damaged", "gleaming", "alluring", "disheveled", 
+                                           "empty", "abrupt", "bountiful", "peculiar", 
+                                           "different", "classy", "miserable", "adept", "disruptable", 
+                                           "boorish", "cramped",
+                                           
+                                           "antique", "anxious", "laid off", "dehydrated", "absolute", 
+                                           "bouncy", "shy", "throny", "jealous", "unfortunate", 
+                                           "active", "blooming", "daydreaming", "uncontrolled",
+                                           
+                                           "apparent", "irrelevant", "on the way", "complete", "reassured",
+                                           
+                                           "playful", "bizarre", "sickened", 
+                                           
+                                           "all-seeing"
+                                           };
   public Word(){
   
   }
   public String getWord(){
     for(int i = 0; i < words.length; i++){
       return words[i];
+    }
+  }
+  public String getSynonym(){
+    for(int i = 0; i < synonym.length; i++){
+      return synonym[i];
     }
   }
   public String getNumberLetter(  ) { 
