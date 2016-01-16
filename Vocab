@@ -1,0 +1,26 @@
+
+public class Vocab {
+	private Word words;
+	private String[] list;
+	private String[] synList;
+	
+	public Vocab(){
+	  words = new Word();
+	  list = (String[]) words.getWords(); 
+	  synList = (String[]) words.getSynonyms();
+	}
+	
+	
+	public String selectAns(){
+		int rIndex=(int)(Math.random()*68);
+		return list[rIndex];
+	}
+	
+	public String getChoices(){
+		int rIndex=(int)(Math.random()*68);
+		return synList[rIndex];
+	}
+	
+	
+}
+	
