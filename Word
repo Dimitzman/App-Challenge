@@ -42,20 +42,20 @@ public class Word{
   public Word(){
   
   }
-  public String getWord(){
+  public String getWords(){
     for(int i = 0; i < words.length; i++){
       return words[i];
     }
   }
-  public String getSynonym(){
+  public String getSynonyms(){
     for(int i = 0; i < synonym.length; i++){
       return synonym[i];
     }
   }
-  public String getNumberLetter(  ) { 
-  
-  }
-  public String toString(){
+  public String getNumberLetter(int d) { 
+    if(d == 4){
+      for(int i = 0; i < 
+    }
   
   }
   
