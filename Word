@@ -43,18 +43,48 @@ public class Word{
   
   }
   public String getWords(){
-    for(int i = 0; i < words.length; i++){
-      return words[i];
-    }
+    return words[];
   }
   public String getSynonyms(){
-    for(int i = 0; i < synonym.length; i++){
-      return synonym[i];
+    return synonym[i];
     }
   }
+  
+  String [] fourLetters = new String[]{"dumb", "mazy", "hazy", "sore", "rich", "odor", "glee", "rosy", "deep", "warm"};
+  String [] fiveLetters = new String[]{"roomy", "comfy", "tabby", "tangy", "abaft", "zesty" , "trite", "ruddy", "naive", "witty",
+                                       "utter", "rough", "brash", "silly", "slimy", "rabid", "crabby", "nippy", "handy"};
+  String [] sixLetters = new String[]{"flashy", "faulty", "glossy", "lovely", "filthy", "hollow", "sudden", "lavish", "exotic"
+                                         "unique", "spiffy", "measly", "nimble", "sordid","vulgar", "narrow"};
+  String [] sevenLetters = new String[]{"ancient", "panicky", "jobless", "thirsty", "supreme", "billowy", "bashful", 
+                                        "prickly", "envious", "hapless", "dynamic", "verdant", "wistful", "rampant"};
+  String [] eightLetters = new String[]{"distinct", "flippant", "imminent", "holistic", "relieved"};
+  String [] nineLetters = new String[]{"whimsical", "ludicrous", "disgusted"};
+  String [] tenLetters = new String[]{"playful", "bizarre", "sickened"};
+  
   public String getNumberLetter(int d) { 
     if(d == 4){
-      for(int i = 0; i < 
+      return fourletters[];
+    }
+    if(d == 5){
+      return fiveLetters[];
+    }
+    else if(d == 6){
+      return sixLetters[];
+    }
+    else if(d == 7){
+      return sevenLetters[];
+    }
+    else if(d == 8){
+      return eightLetters[];
+    }
+    else if(d == 9){
+      return nineLetters[];
+    }
+    else if(d == 10){
+      return tenLetters[];
+    }
+    else{
+    return "Error";
     }
   
   }
